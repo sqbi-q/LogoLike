@@ -1,0 +1,6 @@
+[submodule "jsmn"]
+	path = jsmn
+	url = https://github.com/zserge/jsmn.git
+[submodule "map"]
+	path = map
+	url = https://github.com/rxi/map.git
