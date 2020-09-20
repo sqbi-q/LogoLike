@@ -1,5 +1,9 @@
 # LogoLike
 
+![LogoLike window example](docs/images/window_example.png)
+
+---
+
 LogoLike is C project for educational purpose, inspired by Logo language.
 This repository is heart of whole LogoLike. Code needs generated project folder to display canvas. 
 
