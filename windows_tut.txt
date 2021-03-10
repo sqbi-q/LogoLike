@@ -1,0 +1,21 @@
+# Usage on Windows
+To compile program you need to have installed C (or c++) compiler.
+
+Mingw-w64 is common option for Windows.
+Mingw-w64 instalator: https://sourceforge.net/projects/mingw-w64/
+(Tutorial: https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64)
+(You should also add Mingw-w64 to Windows PATH environment variable: https://code.visualstudio.com/docs/languages/cpp#_add-the-mingw-compiler-to-your-path)
+
+
+To compile you will need to have installed:
+	SDL2 - for graphics;
+	SDL_ttf 2.0 - for font;
+	
+Download SDL2 Development Libraries for Windows, for MinGW from: https://www.libsdl.org/download-2.0.php
+After you download you should unzip folder to `COMPILE` dictionary and rename it to "SDL2"
+
+Download SDL_ttf Development Libraries for Windows, for MinGW from: https://www.libsdl.org/projects/SDL_ttf/
+After you download you should unzip folder to `COMPILE` dictionary and rename it to "SDL2_ttf"
+
+
+To compile program, you should run batch file `compile_windows.bat` in `COMPILE` folder.
